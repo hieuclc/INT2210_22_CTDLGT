@@ -1,0 +1,57 @@
+IF, AND, OR
+IF(điều kiện, TRUE, FALSE)
+
+ROUND(số, n) Làm tròn đến n chữ số sau dấu phảy
+
+COUNT: Đếm số lượng số (bao gồm cả ngày tháng)
+COUNTA: Đếm số ô có giá trị (chữ hoặc số)
+COUNTBLANK: Đếm số ô trống
+
+COUNTIF, COUNTIFS
+Tương tự SUM/AVERAGE, dùng để đếm và bỏ bớt tham số mảng đầu tiên
+
+SUM(mảng, cell, số) tính tổng tất cả các phần tử
+AVERAGE tương tự, tính trung bình cộng
+
+SUMIF, SUMIFS/AVERAGEIF, AVERAGEIFS
+Tính tổng/trung bình có 1 hoặc nhiều điều kiện
+SUMIFS(mảng để tính tổng, mảng 1, điều kiện 1, mảng 2, điều kiện 2)
+
+SUMPRODUCT(mảng 1, mảng 2, mảng 3)
+mảng 1[a, b, c], mảng 2[d, e, f], mảng 3[g, h, j]
+Tính tổng nhân của 3 mảng: a*d*g + b*e*h + c*f*j
+
+RANK(số, mảng)/RANK(số, mảng, 0)
+Xếp hạng số trong mảng (to hơn hạng cao hơn)
+RANK(số, mảng, 1)
+Xếp hạng số trong mảng (nhỏ hơn hạng cao hơn)
+
+
+VLOOKUP, HLOOKUP
+(giá trị, Bảng để tìm, cột/dòng lấy ra, 0/1/FALSE/TRUE)
+0/FALSE: tìm chính xác, không tìm thấy báo lỗi
+1/TRUE: Tìm giá trị nhỏ hơn gần nhất, lỗi nếu giá trị đang tìm nhỏ hơn min. LƯU Ý: cần sắp xếp bảng tìm kiếm
+
+IFERROR(câu lệnh lookup, giá trị mặc định)
+
+INDEX-MATCH
+MATCH(giá trị, mảng, 0): tìm và trả về thứ tự trong mảng (cột/dòng)
+INDEX(ma trận, dòng i, cột j): trả về giá trị tại dòng i, cột j của ma trận
+
+CONCATENATE, &: nối các xâu ký tự
+
+LEFT, RIGHT
+(xâu ký tự, n): trả về n ký tự bên trái/phải
+MID
+(xâu ký tự, pos, n): trả về n ký tự từ vị trí pos
+
+LEN(xâu ký tự): độ dài
+FIND/SEARCH(xâu, nội dung): tìm vị trí xuất hiện đầu tiên trong xâu
+
+UPPER, LOWER
+(xâu ký tự): chuyển nội dung thành chữ HOA hoặc chữ thường
+
+SUBSTITUTE(xâu ký tự, cũ, mới): thay thế toàn bộ cũ thành mới. THêm số vào cuối ~ số lần thay thế.
+
+VALUE(xâu ký tự): chuyển chữ số thành số
+
